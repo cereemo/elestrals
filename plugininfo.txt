@@ -1,0 +1,105 @@
+<plugin>
+	
+	<deckzone>
+		<label>Deck</label>
+		<shuffle>yes</shuffle>
+	</deckzone>
+
+	<deckzone>
+		<label>Spirits</label>
+		<shuffle>no</shuffle>
+	</deckzone>
+	
+	<gamezone>
+		<label>Hand</label>
+		<visibletoowner>yes</visibletoowner>
+	</gamezone>
+	
+	<gamezone>
+		<label>Deck</label>
+	</gamezone>
+
+	<gamezone>
+		<label>Spirits</label>
+		<visibletoowner>yes</visibletoowner>
+		<visibletoothers>no</visibletoothers>
+	</gamezone>	
+
+	<gamezone>
+		<label>Underworld</label>
+		<visibletoowner>yes</visibletoowner>
+		<visibletoothers>yes</visibletoothers>
+	</gamezone>
+
+	
+	<gamezone>
+		<label>Removed from Game</label>
+		<visibletoowner>yes</visibletoowner>
+		<visibletoothers>yes</visibletoothers>
+	</gamezone>
+	
+
+	<phase><label>Draw Phase</label></phase>
+	<phase><label>Main Phase</label></phase>
+	<phase><label>Battle Phase</label></phase>
+	<phase><label>End Phase</label></phase>
+	
+	<generalfunction>
+		<kind>DRAWCARD</kind>
+		<label>Draw</label>
+		<includeasbutton>yes</includeasbutton>
+	</generalfunction>
+
+	<generalfunction>
+		<kind>PREVIOUSPHASE</kind>
+		<label>Previous Phase</label>
+	</generalfunction>
+	
+	<generalfunction>
+		<kind>NEXTPHASE</kind>
+		<label>Next Phase</label>
+	</generalfunction>
+	
+	<generalfunction>
+		<kind>PREVIOUSTURN</kind>
+		<label>Previous Turn</label>
+	</generalfunction>
+	
+	<generalfunction>
+		<kind>NEXTTURN</kind>
+		<label>Next Turn</label>
+	</generalfunction>
+	
+	<cardfunction>
+		<kind>MAKERIGHT0DEGREES</kind>
+		<label>To Attack</label>
+	</cardfunction>
+	
+	<cardfunction>
+		<kind>MAKERIGHT90DEGREES</kind>
+		<label>To Defense</label>
+	</cardfunction>
+
+	<cardfunction>
+		<kind>TURNOVER</kind>
+		<label>Face Down</label>
+	
+	<cardfunction>
+		<kind>ADDCOUNTER</kind>
+		<label>Counter+1</label>
+		<color>green</green>
+		<positionX>0.5</positionX>
+		<positionY>0</positionY>
+	</cardfunction>
+	
+	<cardfunction>
+		<kind>REMOVECOUNTER</kind>
+		<label>counter-1</label>
+		<color>green</color>
+	</cardfunction>
+	
+	<cardfunction>
+		<kind>CLEARCARD</kind>
+		<label>Clear</label>
+	</cardfunction>
+</plugin>
