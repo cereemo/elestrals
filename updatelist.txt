@@ -1,7 +1,7 @@
 Elestrals	08-28-24
 plugins/Elestrals/plugininfo.txt	https://raw.githubusercontent.com/cereemo/Elestrals/main/plugininfo.txt	167816
 plugins/Elestrals/sets/carddata.txt	https://raw.githubusercontent.com/cereemo/Elestrals/main/sets/carddata.txt	5517572
-plugins/Elestrals/sets/setimages/general/cardback.jpg	https://raw.githubusercontent.com/cereemo/Elestrals/main/sets/setimages/general/cardback.png	-1
-images/backgrounds/elestralsbackground.png	https://raw.githubusercontent.com/cereemo/elestrals/main/images/elestralsmat.png -1s
+plugins/Elestrals/sets/setimages/general/cardback.png	https://raw.githubusercontent.com/cereemo/Elestrals/main/sets/setimages/general/cardback.jpg	-508701
+images/backgrounds/elestralsmat.png	https://raw.githubusercontent.com/cereemo/elestrals/main/images/elestralsmat.jpg	-893066
 CardGeneralURLs:
 https://raw.githubusercontent.com/cereemo/elestrals/main/images/
